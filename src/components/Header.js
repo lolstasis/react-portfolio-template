@@ -41,12 +41,9 @@ const Header = () => {
           </Fade>
           <Fade bottom>
             <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
-              }`}
-              className="primary-btn"
+              className="primary-btn" onClick={() => scrollTo("#contact")}
             >
-              CONNECT WITH ME
+              BOOK ME
             </a>
           </Fade>
         </div>
