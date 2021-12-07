@@ -11,12 +11,12 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio.
+            Stasis Coaching
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#work")}>Reviews</button>
             <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <button onClick={() => scrollTo("#contact")}>Rates</button>
           </div>
         </div>
       </div>
